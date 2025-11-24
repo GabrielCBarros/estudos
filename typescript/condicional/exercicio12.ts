@@ -1,4 +1,4 @@
-let tecnologia = "ReactJS"; 
+let tecnologia = "ReactJS";
 
 function verificarTipo() {
 
