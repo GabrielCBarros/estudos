@@ -8,6 +8,7 @@ if(nota>=7.5 && frequencia >= 80){
 }
 }
 let resultad = notaFrequencia(nota, frequencia)
+
 function imprimirResultad(resultad:string) {
     console.log(resultad) 
 }
