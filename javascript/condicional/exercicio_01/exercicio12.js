@@ -1,33 +1,32 @@
-let tecnologia = "ReactJS"; // coloque aqui a tecnologia informada
+// //12. Informe uma dessas frameworks/linguagens (ReactJS, Angular, VueJS, NextJS, NodeJS, NestJS, ExpressJS, Java, PHP, Python, C, C++, C#) e imprima se ela é de backend ou frontend
+// //a. Frontend: ReackJS, Angular, VueJS, NextJS
+// b. Backend: NestJS, ExpressJS, Java, PHP, Python, C, C++, C#
+// let tecnologia = react
+let tecnologia = "ReactJS";
 
-function verificarTipo() {
-
-    if (
-        tecnologia === "ReactJS" ||
+function verificarTecnologia(){
+    if (tecnologia === "ReactJS" ||
         tecnologia === "Angular" ||
         tecnologia === "VueJS" ||
-        tecnologia === "NextJS"
-    ) {
-        console.log(tecnologia, "é de FRONTEND");
-    }
+        tecnologia === "NextJS")
+           {
+        console.log("Se for esse combo é Frontend");
 
-    else if (
-        tecnologia === "NestJS" ||
-        tecnologia === "ExpressJS" ||
-        tecnologia === "NodeJS" ||
-        tecnologia === "Java" ||
-        tecnologia === "PHP" ||
-        tecnologia === "Python" ||
-        tecnologia === "C" ||
-        tecnologia === "C++" ||
-        tecnologia === "C#"
-    ) {
-        console.log(tecnologia, "é de BACKEND");
     }
+    else if (tecnologia === "NextJS" || 
+            tecnologia === "ExpressJS" ||
+            tecnologia === "Java" || 
+            tecnologia === "PHP" ||
+            tecnologia === "Python" ||
+            tecnologia === "C" ||
+            tecnologia === "C++" ||
+            tecnologia === "C#" ){
 
+        console.log("Se for esse combo é backend")
+
+    }
     else {
-        console.log("Tecnologia inválida");
+        console.log("tecnologia não entrada")
     }
 }
-
-verificarTipo();
+verificarTecnologia()

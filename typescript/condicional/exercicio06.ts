@@ -1,12 +1,6 @@
-// //Informe a hora (0 a 23) e verifique se é madrugada, manhã, tarde ou noite
-// //a. 0-5: madrugada
-// b. 6-11: manhã
-// c. 12-17: tarde
-// d. 18-23: noite
-
 let hora = 12;
 
-function verificarHora(hora){
+function verificarHora(hora:number){
     if(hora>= 0 && hora <= 5){
         return"Madrugada"
     }
@@ -24,8 +18,9 @@ function verificarHora(hora){
     return"horario invalido"
     }
 }
-let resultado = verificarHora(hora)
-function imprimirResultado(resultado){
-    console.log(resultado)
+let resultado6: string = verificarHora(hora)
+function imprimirResultado6(resultado6: string){
+    console.log(resultado6)
 }
-imprimirResultado(resultado)
+imprimirResultado6(resultado6)
+
