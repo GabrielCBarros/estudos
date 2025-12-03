@@ -35,7 +35,7 @@ let formaPagamento = "pix";
 let preco = 100;
 let valor;
 
-function calcular(formaPagamento, preco, valor){
+function calcular(formaPagamento, preco){
     if(formaPagamento === "pix" || formaPagamento === "À vista em Dinheiro" ){
         valor = preco * 0.15;
         return "desconto de R$:" + valor
