@@ -12,6 +12,7 @@ let a = 15;
 let b = 10;
 
 let resultado = numerosDiferentes(a,b)
+
 function imprimirResultado(resultado){
     console.log(resultado)
 }
