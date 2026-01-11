@@ -1,10 +1,6 @@
 //8. Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela a soma entre A e B e mostre se a soma é menor que C
 
-let = a;
-let = b;
-let = c;
-
-function somarNumero(){
+function somarNumero(a,b,c){
     let soma = (a + b);
 
     if (soma < c){
@@ -15,3 +11,13 @@ function somarNumero(){
     }
 
 }
+let a = 10;
+let b = 15;
+let c = 80
+
+let resultado =  somarNumero(a,b,c)
+
+function imprimirResultado(resultado){
+    console.log(resultado)
+}
+imprimirResultado(resultado)

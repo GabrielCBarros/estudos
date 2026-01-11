@@ -4,7 +4,7 @@ function imprimirAntecessorSucessor(){
    return [antecessor, sucessor]
     
 }
-let numero = 10;
+let numero = 100088900;
 let antecessor = numero - 1;
 let sucessor = numero + 1;
 
