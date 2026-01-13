@@ -3,7 +3,7 @@
 // b. 10% de desconto: “À vista no Cartão de Crédito”
 // c. Preço normal: “Parcelado 2x no Cartão de Crédito”
 // d. 10% de juros: “Parcelado em 3x ou mais no Cartão de Crédito”
-
+export {};
 let formaPagamento2: string = "Parcelado em 3x ou mais no Cartão de Crédito" 
 let valorProduto: number = 200
 let valorDesconto: number;

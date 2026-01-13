@@ -1,4 +1,5 @@
-let idades: number = 14
+export {};
+let idade: number = 14
 function verificarIdade(idade: number):string {
     if (idade >=18) {
         return "voce é maior de idade"
@@ -6,9 +7,9 @@ function verificarIdade(idade: number):string {
         return "voce é menor de idade"
     }
 }
-let resultados:string = verificarIdade(idade)
+let resultado: string = verificarIdade(idade)
 
-function imprimirResultados(resultado: string):void {
+function imprimirResultado(resultado: string):void {
     console.log(resultado) 
 }
 imprimirResultado(resultado)

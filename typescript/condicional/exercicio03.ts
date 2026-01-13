@@ -1,3 +1,4 @@
+export {};
 let nota = 8.0;
 let frequencia = 85;
 function notaFrequencia(nota:number, frequencia:number){

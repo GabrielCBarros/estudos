@@ -1,15 +1,22 @@
-let num1: number = 10;
-let num2: number = 15;
-let num3: number = 20;
-
-function verificarNumeroMenor (num1: number , num2: number , num3: number): void {
+export {};
+function verificarNumeroMenor (num1: number , num2: number , num3: number) {
     if (num1 < num2 && num1 < num3) {
-        console.log("numero um é o menor")
+        return "numero um é o menor"
     }
     else if (num2 < num1 && num2 < num3) {
-        console.log("num2 é o menor número")
+        return "numero 2 é o menor número"
     }
     else {
-        console.log("num3 é o menor número")
+        return "numero 3 é o menor número" 
     }
 }
+let num1 = 70;
+let num2 = 60;
+let num3 = 40;
+
+let resultados: string = verificarNumeroMenor (num1 , num2 , num3);
+
+function imprimirResultado(resultados: string){
+    console.log(resultados)
+}
+imprimirResultado(resultados)

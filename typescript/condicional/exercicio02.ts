@@ -1,3 +1,4 @@
+export {};
 let idade: number = 14 
 function verificarFaixaEtaria(idade: number):string{
     if (idade <= 2){

@@ -5,11 +5,10 @@
 // d. 10% de juros: “Parcelado em 3x ou mais no Cartão de Crédito”
 
 let formaPagamento = "Parcelado em 3x ou mais no Cartão de Crédito" 
-let valorProduto = 200
-let valorDesconto;
-let valorJuros;
 
-function calcular(){
+function calcular(formaPagamento,valorProduto,valorDesconto,valorJuros){
+    
+
     if (formaPagamento === "pix" || formaPagamento === "À vista em Dinheiro"){
         valorDesconto = valorProduto * 0.15
         return `Produto no valor de R$${valorProduto}, desconto será de R$${valorDesconto}.`
@@ -28,7 +27,11 @@ function calcular(){
     }
 }
 
-let resultado = calcular();
+    let valorProduto = 200
+    let valorDesconto;
+    let valorJuros;
+
+let resultado = calcular(formaPagamento,valorProduto,valorDesconto,valorJuros);
 
 function imprimirResultado(resultado){
     console.log(resultado)
