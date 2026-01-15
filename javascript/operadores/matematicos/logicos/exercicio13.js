@@ -4,7 +4,7 @@
 // c. Preço normal: “Parcelado 2x no Cartão de Crédito”
 // d. 10% de juros: “Parcelado em 3x ou mais no Cartão de Crédito”
 
-let formaPagamento = "Parcelado em 3x ou mais no Cartão de Crédito" 
+let formaPagamento = "pix" 
 
 function calcular(formaPagamento,valorProduto,valorDesconto,valorJuros){
     
@@ -34,6 +34,7 @@ function calcular(formaPagamento,valorProduto,valorDesconto,valorJuros){
 let resultado = calcular(formaPagamento,valorProduto,valorDesconto,valorJuros);
 
 function imprimirResultado(resultado){
+    
     console.log(resultado)
 }
 imprimirResultado(resultado)
