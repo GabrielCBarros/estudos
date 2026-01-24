@@ -1,6 +1,4 @@
 //2. Encontre o número múltiplo de 7
-
-//2. Encontre o número múltiplo de 7
 export {};
 let lista: number [] = [8, 2, 9, 10, 11, 5, 4, 20, 4, 34]
 let listaMultiploSete: number [] = [];
